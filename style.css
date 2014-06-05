@@ -5,3 +5,26 @@ body {
 canvas {
 	background-color: #e5e5e5;
 }
+
+#colors {
+	width: 320px;
+}
+
+#colors ol {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+	line-height: 0;
+}
+
+#colors ol li {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border: 1px solid #aaa;
+	margin: 2px 1px;
+}
